@@ -66,13 +66,12 @@ function createToggle(active) {
     const tmp = document.createElement('template')
     const tooltip = active ? 'context.hide' : 'context.show'
 
-    tmp.innerHTML = `<a
-    class="combatant-control${active ? ' active' : ''}"
+    tmp.innerHTML = `<button type="button"
+    class="inline-control combatant-control icon fa-solid fa-signature ${active ? ' active' : ''}"
     data-control="toggle-name-visibility"
     data-tooltip="${localize(tooltip)}"
 >
-    <i class="fa-solid fa-signature"></i>
-</a>`
+</button>`
 
     return tmp.content.firstChild
 }

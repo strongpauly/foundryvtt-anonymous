@@ -13,14 +13,14 @@
     ],
     "compatibility": {
         "minimum": "13.342",
-        "verified": "13.342",
-        "maximum": "13"
+        "verified": "14",
+        "maximum": "14"
     },
-    "version": "1.6.4",
+    "version": "1.6.5",
     "url": "https://github.com/strongpauly/foundryvtt-anonymous",
     "readme": "https://github.com/strongpauly/foundryvtt-anonymous/blob/master/README.md",
-    "manifest": "https://github.com/strongpauly/foundryvtt-anonymous/releases/download/1.6.4-dev/module.json",
-    "download": "https://github.com/strongpauly/foundryvtt-anonymous/releases/download/1.6.4-dev/module.zip",
+    "manifest": "https://github.com/strongpauly/foundryvtt-anonymous/releases/download/1.6.5-dev/module.json",
+    "download": "https://github.com/strongpauly/foundryvtt-anonymous/releases/download/1.6.5-dev/module.zip",
     "changelog": "https://github.com/strongpauly/foundryvtt-anonymous/blob/master/CHANGELOG.md",
     "bugs": "https://github.com/strongpauly/foundryvtt-anonymous/issues",
     "styles": [
