@@ -48,7 +48,7 @@ function changeNames(message, actor, html) {
     const regexp = new RegExp(`(^|\\s)(${joined})($|\\s)`, "gmi");
     const renamed = getName(actor);
     const replacement = game.user.isGM
-        ? `$1<span class="anonymous-replaced" title="${renamed}">$2</span>$3`
+        ? `$1<span class="anonymous-replaced" data-tooltip aria-label="${renamed}">$2</span>$3`
         : `$1${renamed}$3`;
 
     replaceHTMLText(html, regexp, replacement);

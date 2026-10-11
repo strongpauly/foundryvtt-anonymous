@@ -1,3 +1,8 @@
+# 1.6.6
+
+-   Change to data-tooltip
+-   Fix colors in chat header
+
 # 1.6.2
 
 -   fix chat renaming issue introduced in `1.6.1`
