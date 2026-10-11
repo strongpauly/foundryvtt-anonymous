@@ -15,8 +15,15 @@
 }
 
 .anonymous-replaced {
-  background-color: #e8e8ef;
   outline: 1px dotted rgba(75, 74, 68, 0.5);
   border-radius: 1px;
   padding: 0 1px;
+}
+
+.theme-light .anonymous-replaced {
+    background-color: #e8e8ef;
+}
+
+.theme-dark .anonymous-replaced {
+    background-color: #2a2a2c;
 }
