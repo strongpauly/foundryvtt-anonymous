@@ -18,11 +18,11 @@
     },
     "version": "#{VERSION}#",
     "url": "#{URL}#",
-    "readme": "https://github.com/strongpauly/foundryvtt-anonymous/blob/master/README.md",
+    "readme": "#{URL}#/blob/#{TAG}#/README.md",
     "manifest": "#{MANIFEST}#",
     "download": "#{DOWNLOAD}#",
-    "changelog": "https://github.com/strongpauly/foundryvtt-anonymous/blob/master/CHANGELOG.md",
-    "bugs": "https://github.com/strongpauly/foundryvtt-anonymous/issues",
+    "changelog": "#{URL}#/blob/#{TAG}#/CHANGELOG.md",
+    "bugs": "#{URL}#/issues",
     "styles": [
         "styles/styles.css"
     ],
