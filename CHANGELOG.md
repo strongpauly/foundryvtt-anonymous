@@ -1,7 +1,28 @@
+# 1.6.7
+
+-   add a GitHub Actions workflow that builds the module, attaches `module.zip` and `module.json` to releases, and publishes to the Foundry package site when a token is configured
+-   `module.json` version and URLs are now generated from the release tag and repository
+-   `scripts/` is now built in CI and no longer committed
+
 # 1.6.6
 
--   Change to data-tooltip
--   Fix colors in chat header
+-   use `data-tooltip` for the GM's original-name tooltip on renamed chat text
+-   fix the replaced-name highlight colors in chat for light and dark themes
+
+# 1.6.5
+
+-   declare Foundry v14 compatibility
+-   change the combat tracker name toggle from an anchor to a button
+
+# 1.6.4
+
+-   fix the token HUD name toggle on v13
+-   hide a combat tracker group's name from players when one or more of its members' names are hidden
+
+# 1.6.3
+
+-   basic Foundry v13 support (combat tracker updated for the new markup)
+-   minimum compatibility is now v13
 
 # 1.6.2
 
